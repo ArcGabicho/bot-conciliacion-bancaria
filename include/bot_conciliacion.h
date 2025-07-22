@@ -1,18 +1,18 @@
-#ifndef BOT_CONCILIACION_H
-#define BOT_CONCILIACION_H
-
-#include <string>
+#pragma once
 #include <vector>
+#include <string>
 
 struct Transaccion {
     std::string fecha;
     double monto;
     std::string descripcion;
-
-    bool operator==(const Transaccion& otra) const;
 };
 
-std::vector<Transaccion> leerCSV(const std::string& rutaArchivo);
-void compararTransacciones(const std::vector<Transaccion>& internas, const std::vector<Transaccion>& banco);
+struct ResultadoConciliacion {
+    std::vector<Transaccion> faltanEnBanco;
+    std::vector<Transaccion> faltanEnInterno;
+};
 
-#endif
+ResultadoConciliacion compararTransacciones(
+    const std::vector<Transaccion>& interno,
+    const std::vector<Transaccion>& banco);
