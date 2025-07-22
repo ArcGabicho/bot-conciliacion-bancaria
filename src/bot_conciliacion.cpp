@@ -68,5 +68,5 @@ void compararTransacciones(const std::vector<Transaccion>& internas, const std::
         }
     }
 
-    std::cout << "Conciliación finalizada.\n";
+    std::cout << "Conciliacion finalizada.\n";
 }
