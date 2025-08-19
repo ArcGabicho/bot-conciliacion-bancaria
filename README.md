@@ -75,7 +75,7 @@ make
 # 🧑‍💻 Autor
 
 **Gabriel Polack**  
-*Consultor TI & Software Architect — [Blog](https://gabicho.dev)*
+*Consultor TI & Software Architect — [Portafolio](https://gabicho.dev)*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tu-usuario/)  
-[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/tu-usuario)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-polack-castillo/)  
+[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/ArcGabicho)
